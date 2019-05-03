@@ -59,17 +59,32 @@ public class Specs {
 
 	public static const categories:Array = [
 	 // id   category name	color
+//		[0,  "undefined",	0xD42828],
+//		[1,  "Motions",		0x4a6cd4],
+//		[2,  "Looks",		0x8a55d7],
+//		[3,  "Sound",		0xbb42c3],
+//		[4,  "Pen",			0x0e9a6c], // Scratch 1.4: 0x009870
+//		[5,  "Events",		0xc88330],
+//		[6,  "Control",		0xe1a91a],
+//		[7,  "Sensing",		0x2ca5e2],
+//		[8,  "Operators",	0x5cb712],
+//		[9,  "Data",		variableColor],
+//		[10, "More Blocks",	procedureColor],
+//		[11, "Parameter",	parameterColor],
+//		[12, "List",		listColor],
+//		[20, "Extension",	extensionsColor],
+
 		[0,  "undefined",	0xD42828],
-		[1,  "Motion",		0x4a6cd4],
-		[2,  "Looks",		0x8a55d7],
-		[3,  "Sound",		0xbb42c3],
-		[4,  "Pen",			0x0e9a6c], // Scratch 1.4: 0x009870
-		[5,  "Events",		0xc88330],
-		[6,  "Control",		0xe1a91a],
-		[7,  "Sensing",		0x2ca5e2],
-		[8,  "Operators",	0x5cb712],
-		[9,  "Data",		variableColor],
-		[10, "More Blocks",	procedureColor],
+		[1,  "Mwendo",		0x4a6cd4],
+		[2,  "Mionekano",		0x8a55d7],
+		[3,  "Sauti",		0xbb42c3],
+		[4,  "Kalamu",			0x0e9a6c], // Scratch 1.4: 0x009870
+		[5,  "Matukio",		0xc88330],
+		[6,  "Ongoza",		0xe1a91a],
+		[7,  "Sikilizia",		0x2ca5e2],
+		[8,  "Waendeshaji",	0x5cb712],
+		[9,  "Takwimu",		variableColor],
+		[10, "Vitalu Zaidi",	procedureColor],
 		[11, "Parameter",	parameterColor],
 		[12, "List",		listColor],
 		[20, "Extension",	extensionsColor],

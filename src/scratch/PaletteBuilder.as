@@ -72,9 +72,11 @@ public class PaletteBuilder {
 		var catColor:int = Specs.blockColor(selectedCategory);
 		if (app.viewedObj() && app.viewedObj().isStage) {
 			// The stage has different blocks for some categories:
-			var stageSpecific:Array = ['Control', 'Looks', 'Motion', 'Pen', 'Sensing'];
+//			var stageSpecific:Array = ['Control', 'Looks', 'Motion', 'Pen', 'Sensing'];
+			var stageSpecific:Array = ['Ongoza', 'Mionekano', 'Mwendo', 'Kalamu', 'Sikilizia'];
 			if (stageSpecific.indexOf(catName) != -1) selectedCategory += 100;
-			if (catName == 'Motion') {
+//			if (catName == 'Motion') {
+			if (catName == 'Mwendo') {
 				addItem(makeLabel(Translator.map('Stage selected:')));
 				nextY -= 6;
 				addItem(makeLabel(Translator.map('No motion blocks')));
